@@ -5,14 +5,14 @@ int main()
  int max=0;
  int indice_max = -1 ; 
    // Initialiser max avec une valeur négative
-  for (int i = 1; i < 10; i++) {
+  for (int i = 0; i < 10; i++) {
     if (T[i]<0){
       max = T[i];
       indice_max = i;      
     }
   }
    if(max != 0){
-      for (int i = 1; i < 10; i++) 
+      for (int i = 0; i < 10; i++) 
      {                                               
        if (T[i] < 0 && T[i] > max)
          {                                               
